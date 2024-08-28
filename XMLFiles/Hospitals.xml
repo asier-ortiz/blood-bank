@@ -1,0 +1,24 @@
+<Hospitals>
+    <Hospital id="1">
+        <name>Txagorritxu</name>
+        <Address>
+            <street>Jose Atxotegi Kalea</street>
+            <number>s/n</number>
+            <zipCode>01009</zipCode>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <phone>945 00 70 00</phone>
+    </Hospital>
+    <Hospital id="2">
+        <name>Santiago Apóstol</name>
+        <Address>
+            <street>Olagibel</street>
+            <number>29</number>
+            <zipCode>01004</zipCode>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <phone>945 00 76 00</phone>
+    </Hospital>
+</Hospitals>

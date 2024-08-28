@@ -1,0 +1,138 @@
+<Donors>
+    <Donor id="1">
+        <firstName>Asier</firstName>
+        <lastName>Ortiz</lastName>
+        <Address>
+            <street>Av. Reina Sofía</street>
+            <number>150</number>
+            <zipCode>01015</zipCode>
+            <floor>4º</floor>
+            <houseNumber>D</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>asier@gmail.com</email>
+        <phone>658 45 96 32</phone>
+        <sex>H</sex>
+        <bloodGroup>O_NEG</bloodGroup>
+    </Donor>
+    <Donor id="2">
+        <firstName>Miguen Angel</firstName>
+        <lastName>Correa</lastName>
+        <Address>
+            <street>Gorbea</street>
+            <number>15</number>
+            <zipCode>01008</zipCode>
+            <floor>2º</floor>
+            <houseNumber>D</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>miguel@gmail.com</email>
+        <phone>658 45 96 32</phone>
+        <sex>H</sex>
+        <bloodGroup>A_NEG</bloodGroup>
+    </Donor>
+    <Donor id="3">
+        <firstName>Nerea</firstName>
+        <lastName>Alonso</lastName>
+        <Address>
+            <street>Voluntaria Entrega</street>
+            <number>40</number>
+            <zipCode>01010</zipCode>
+            <floor>10º</floor>
+            <houseNumber>E</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>nerea@gmail.com</email>
+        <phone>658 45 96 32</phone>
+        <sex>M</sex>
+        <bloodGroup>AB_POS</bloodGroup>
+    </Donor>
+    <Donor id="4">
+        <firstName>June</firstName>
+        <lastName>Clemente</lastName>
+        <Address>
+            <street>Falsa</street>
+            <number>123</number>
+            <zipCode>01000</zipCode>
+            <floor>1º</floor>
+            <houseNumber>A</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>june@test.com</email>
+        <phone>666 55 77 99</phone>
+        <sex>M</sex>
+        <bloodGroup>O_POS</bloodGroup>
+    </Donor>
+    <Donor id="5">
+        <firstName>Judith</firstName>
+        <lastName>Blanco</lastName>
+        <Address>
+            <street>Falsa</street>
+            <number>123</number>
+            <zipCode>01000</zipCode>
+            <floor>6º</floor>
+            <houseNumber>D</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>judith@test.com</email>
+        <phone>668 77 45 21</phone>
+        <sex>M</sex>
+        <bloodGroup>B_NEG</bloodGroup>
+    </Donor>
+    <Donor id="6">
+        <firstName>Claudio</firstName>
+        <lastName>Cervera</lastName>
+        <Address>
+            <street>Falsa</street>
+            <number>123</number>
+            <zipCode>01000</zipCode>
+            <floor>9º</floor>
+            <houseNumber>B</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>claudio@test.com</email>
+        <phone>621 48 99 33</phone>
+        <sex>H</sex>
+        <bloodGroup>B_POS</bloodGroup>
+    </Donor>
+    <Donor id="7">
+        <firstName>Maravillas</firstName>
+        <lastName>Marques</lastName>
+        <Address>
+            <street>Falsa</street>
+            <number>123</number>
+            <zipCode>01000</zipCode>
+            <floor>6º</floor>
+            <houseNumber>D</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>maravillas@test.com</email>
+        <phone>658 74 22 65</phone>
+        <sex>M</sex>
+        <bloodGroup>A_POS</bloodGroup>
+    </Donor>
+    <Donor id="8">
+        <firstName>Vanessa</firstName>
+        <lastName>Espino</lastName>
+        <Address>
+            <street>Falsa</street>
+            <number>123</number>
+            <zipCode>01000</zipCode>
+            <floor>7º</floor>
+            <houseNumber>A</houseNumber>
+            <city>Vitoria-Gasteiz</city>
+            <country>España</country>
+        </Address>
+        <email>vanessa@test.com</email>
+        <phone>699 88 77 12</phone>
+        <sex>M</sex>
+        <bloodGroup>AB_NEG</bloodGroup>
+    </Donor>
+</Donors>

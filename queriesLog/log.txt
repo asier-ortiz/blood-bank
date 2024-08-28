@@ -1,0 +1,573 @@
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "B_NEG") or contains($bg, "A_NEG") or contains($bg, "AB_NEG")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=4]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=4]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=7]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=7]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+DonorDAO getLastId()
+string(/Donors/Donor[@id = max(/Donors/Donor/@id)]/@id)
+
+DonorDAO save()
+update insert <Donor id="9">
+    <firstName>Joseba</firstName>
+    <lastName>Celada</lastName>
+    <Address>
+      <street>zabalgana</street>
+      <number>55</number>
+      <zipCode>01015</zipCode>
+      <floor>5º</floor>
+      <houseNumber>F</houseNumber>
+      <city>Vitoria</city>
+      <country>España</country>
+    </Address>
+    <email>joseba@test.com</email>
+    <phone>666 88 77 44</phone>
+    <sex>H</sex>
+    <bloodGroup>AB_POS</bloodGroup>
+  </Donor> into /Donors
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@5f21272f
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@60a48cc0
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@1bb75523
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@75e39828
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@23add1e4
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@67ab9bdd
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@4694d446
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@2fdf3664
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@62b0f08a
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@597eea72
+
+DonorDAO update()
+org.exist.xmldb.RemoteCompiledExpression@392833ff
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getLastId()
+string(/BloodDonations/BloodDonation[@id = max(/BloodDonations/BloodDonation/@id)]/@id)
+
+BloodDonationDAO save()
+update insert <BloodDonation id="41">
+    <donorId>1</donorId>
+    <dateDonated>2020-12-12</dateDonated>
+    <bloodGroup>O_NEG</bloodGroup>
+    <isAvailable>true</isAvailable>
+  </BloodDonation> into /BloodDonations
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+DonorDAO search()
+for $donor in /Donors/Donor
+where $donor/bloodGroup='AB_POS'
+where $donor/sex='H'
+return $donor
+
+DonorDAO getAll()
+for $donor in /Donors/Donor return $donor
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=1]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=2]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+BloodDonationDAO getAllByDonorId()
+/BloodDonations/BloodDonation[donorId=3]
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "2"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "2"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+OrderDAO getLastId()
+string(/Orders/Order[@id = max(/Orders/Order/@id)]/@id)
+
+OrderDAO save()
+update insert           <Order id="4">
+            <hospitalId>1</hospitalId>
+            <orderDate>2020-12-12</orderDate>
+            <BloodBags>
+                    <BloodBag>
+        <bloodGroup>O_NEG</bloodGroup>
+        <dateDonated>2020-12-12</dateDonated>
+      </BloodBag>
+      <BloodBag>
+        <bloodGroup>O_NEG</bloodGroup>
+        <dateDonated>2020-12-12</dateDonated>
+      </BloodBag>
+      <BloodBag>
+        <bloodGroup>B_POS</bloodGroup>
+        <dateDonated>2020-12-12</dateDonated>
+      </BloodBag>
+
+            </BloodBags>
+          </Order>
+ into /Orders
+
+BloodDonationDAO update()
+update value /BloodDonations/BloodDonation[@id=25]/isAvailable with data ('false')
+
+BloodDonationDAO update()
+update value /BloodDonations/BloodDonation[@id=26]/isAvailable with data ('false')
+
+BloodDonationDAO update()
+update value /BloodDonations/BloodDonation[@id=17]/isAvailable with data ('false')
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+OrderDAO getAllByHospital()
+    for $order in /Orders/Order
+        where $order/hospitalId = "1"
+    return $order
+
+
+HospitalDAO getAll()
+for $hospital in /Hospitals/Hospital return $hospital
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "B_NEG") or contains($bg, "A_NEG") or contains($bg, "AB_NEG")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "A_NEG")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+
+
+BloodDonationDAO getAllAvailableCompatibleWithGroup()
+for $bd in /BloodDonations/BloodDonation
+let $dd := $bd/dateDonated
+let $bg := $bd/bloodGroup
+where $bd/dateDonated gt "2020-11-12"
+and contains($bg, "O_NEG") or contains($bg, "O_POS") or contains($bg, "B_NEG") or contains($bg, "B_POS") or contains($bg, "A_NEG") or contains($bg, "A_POS") or contains($bg, "AB_NEG") or contains($bg, "AB_POS")
+where $bd/isAvailable = 'true'
+order by $bd/dateDonated descending
+return $bd
+

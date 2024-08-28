@@ -1,0 +1,242 @@
+<BloodDonations>
+    <BloodDonation id="1">
+        <donorId>1</donorId>
+        <bloodGroup>O_NEG</bloodGroup>
+        <dateDonated>2020-12-09</dateDonated>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="2">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="3">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="4">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="5">
+        <donorId>1</donorId>
+        <dateDonated>2019-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="6">
+        <donorId>1</donorId>
+        <dateDonated>2018-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="7">
+        <donorId>2</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="8">
+        <donorId>2</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="9">
+        <donorId>2</donorId>
+        <dateDonated>2019-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="10">
+        <donorId>2</donorId>
+        <dateDonated>2016-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="11">
+        <donorId>3</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_POS</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="12">
+        <donorId>3</donorId>
+        <dateDonated>2017-12-12</dateDonated>
+        <bloodGroup>AB_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="13">
+        <donorId>4</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_POS</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="14">
+        <donorId>4</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_POS</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="15">
+        <donorId>5</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="16">
+        <donorId>5</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="17">
+        <donorId>6</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="18">
+        <donorId>6</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="19">
+        <donorId>7</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_POS</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="20">
+        <donorId>7</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="21">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="22">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="23">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="24">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>false</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="25">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="26">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="27">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="28">
+        <donorId>1</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="29">
+        <donorId>2</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="30">
+        <donorId>2</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="31">
+        <donorId>3</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="32">
+        <donorId>3</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="33">
+        <donorId>4</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="34">
+        <donorId>4</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>O_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="35">
+        <donorId>5</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="36">
+        <donorId>6</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>B_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="37">
+        <donorId>7</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="38">
+        <donorId>7</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>A_POS</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="39">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+    <BloodDonation id="40">
+        <donorId>8</donorId>
+        <dateDonated>2020-12-12</dateDonated>
+        <bloodGroup>AB_NEG</bloodGroup>
+        <isAvailable>true</isAvailable>
+    </BloodDonation>
+</BloodDonations>
